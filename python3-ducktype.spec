@@ -25,15 +25,12 @@ Analiza plików Ducktype i konwersja do formatu Mallard.
 %setup -q -n duck-%{version}
 
 %build
-%{__python3} setup.py build
+%py3_build
 
 %install
 rm -rf $RPM_BUILD_ROOT
 
-%{__python3} setup.py install \
-	--skip-build \
-	--optimize=2 \
-	--root=$RPM_BUILD_ROOT
+%py3_install
 
 %clean
 rm -rf $RPM_BUILD_ROOT
