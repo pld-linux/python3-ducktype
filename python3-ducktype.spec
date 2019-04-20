@@ -5,9 +5,10 @@ Version:	0.1
 Release:	4
 License:	MIT
 Group:		Libraries/Python
-Source0:	https://pypi.python.org/packages/source/d/duck/duck-%{version}.tar.gz
+#Source0Download: https://pypi.org/simple/duck/
+Source0:	https://files.pythonhosted.org/packages/source/d/duck/duck-%{version}.tar.gz
 # Source0-md5:	057200b029695f44fd4c518d7f0cd385
-URL:		https://pypi.python.org/pypi/duck
+URL:		https://pypi.org/project/duck/
 BuildRequires:	rpm-pythonprov
 BuildRequires:	rpmbuild(macros) >= 1.710
 BuildRequires:	python3-setuptools
