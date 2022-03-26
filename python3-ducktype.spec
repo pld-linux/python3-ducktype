@@ -2,7 +2,7 @@ Summary:	Parse Ducktype files and convert them to Mallard
 Summary(pl.UTF-8):	Analiza plików Ducktype i konwersja do formatu Mallard
 Name:		python3-ducktype
 Version:	0.1
-Release:	7
+Release:	8
 License:	MIT
 Group:		Libraries/Python
 #Source0Download: https://pypi.org/simple/duck/
